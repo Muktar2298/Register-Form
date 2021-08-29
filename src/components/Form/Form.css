@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.form-container .half-width {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+.intro-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  text-align: center;
+}
+.intro-container h5,
+p,
+button {
+  margin-top: 1.5rem;
+}
+.intro-container h5 {
+  font-size: 1.6rem;
+}
+.intro-btn {
+  background-color: #fff;
+  width: 150px;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+/* --Register Start -- */
+.register-container {
+  color: grey;
+  border-radius: 1rem;
+  padding: 2rem 0rem 3rem 4rem;
+  background: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.register-container h2 {
+  margin-left: -4rem;
+  text-align: center;
+}
+form {
+  width: 80%;
+  height: 100%;
+  margin-left: 15%;
+}
+
+input {
+  width: 16rem;
+  height: 1.8rem;
+}
+.btn {
+  background-color: #f36315;
+  color: #fff;
+  width: 16rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 3rem;
+  margin-left: auto;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* --Register End -- */
